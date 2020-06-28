@@ -1,0 +1,74 @@
+body{
+    margin: 0px;
+    /* background-image:linear-gradient(to right, #f8d1f2, #ffb4d1); */
+    background-image: url("/images/background.png");
+    justify-content: center;
+    text-align: center;
+    text-shadow: 2px 2px 2px #b492ca;
+}
+
+main{
+    max-width: 60vw;
+    margin: auto;
+    justify-content: center;
+    font-family: 'Baloo 2', cursive;
+    color: #8641e1;
+}
+
+#jogo-da-memoria{
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: #ffffff; */
+    justify-content: center;
+    border: 1px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 5px  #755361;
+    background-image:linear-gradient(to right, #e0daee, #c3b4f8);
+}
+
+.card{
+    margin: 2%;
+    line-height: 1vh;
+    width: 10vw;
+    background-color: #9381ff;
+    border-radius: 10px;
+    border: 20px, rgb(240, 147, 190);
+    box-shadow: 5px 5px 5px  #755361;
+}
+
+.card img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+button{
+    width: 200px;
+    line-height: 4vh;
+    color: #ffffff;
+    background: #8641e1;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: #ffffff;
+    font-family: 'Baloo 2', cursive;
+    font-size: large;
+    
+    box-shadow: 5px 5px 5px  #755361;
+}
+
+#logo{
+    width: 40vw;
+    height: 20vw;
+}
+
+#ranking{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 5px  #755361;
+    background-image:linear-gradient(to right, #e0daee, #c3b4f8);
+}
