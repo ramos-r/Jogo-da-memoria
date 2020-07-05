@@ -7,7 +7,7 @@ body{
 }
 
 main{
-    max-width: 60vw;
+    max-width: 80vw;
     margin: auto;
     justify-content: center;
     font-family: 'Baloo 2', cursive;
@@ -57,8 +57,8 @@ button{
 }
 
 #logo{
-    width: 40vw;
-    height: 20vw;
+    width: min-content;
+    height: min-content;
 }
 
 #ranking{
@@ -69,5 +69,5 @@ button{
     border-radius: 20px;
     margin-bottom: 10px;
     box-shadow: 5px 5px 5px  #755361;
-    background-image:linear-gradient(to right, #e0daee, #c3b4f8);
+    background-color: #ffffff;
 }
