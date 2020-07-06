@@ -162,3 +162,10 @@ function reset() {
     pontuacao = 0
     pontuar(pontuacao)
 }
+
+
+var person = prompt("Insira seu nome para jogar:", "");
+
+if (person != null){
+    document.getElementById("demo").innerHTML = "Bem-vindo(a) " + person + " e bom jogo! ";
+}

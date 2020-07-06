@@ -33,6 +33,7 @@ h1, h2{
 }
 
 .card{
+    display: flex;
     margin: 2%;
     line-height: 1vh;
     width: 10vw;
@@ -43,6 +44,7 @@ h1, h2{
 }
 
 .card img{
+    display: flex;
     width: 100%;
     height: 100%;
     border-radius: 10px;
@@ -55,11 +57,43 @@ button{
     background: #8641e1;
     margin-bottom: 20px;
     border-radius: 5px;
-    border: #ffffff;
+    border: none;
     font-family: 'Baloo 2', cursive;
     font-size: large;
-    
     box-shadow: 5px 5px 5px  #755361;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #6811da;
+    color: #ffffff;
+    font-size: large;
+     width: 200px;
+     max-height: 4vh;
+    margin-bottom: 20px;
+}
+
+.w3-modal-container, .w3-modal{
+    padding-bottom: 1em;
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-top: 1em;
+    background-color: #6811da;
+    color: #ffffff;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.rules-title {
+    font-family: 'Baloo 2', cursive;
+}
+
+.rules-ul {
+    font-family: 'Baloo 2', cursive;
+    list-style: decimal;
+    text-align: left;
+    padding-bottom: 1em;
+    padding-right: 1em;
 }
 
 #ranking{

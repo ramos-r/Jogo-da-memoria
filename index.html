@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="icon" type="imagem/png" href="/images/back.png">
     <title>Jogo da Memória</title>
 </head>
@@ -17,7 +18,22 @@
     <div class="button">
          <button onclick="reset()">Recomeçar</button>
          <a href="https://ramos-r.github.io/mix-or-match/index.html"><button type="button">Voltar</button></a>
+         <button class="rules-button" onclick="document.getElementById('id01').style.display='block'">Regras do Jogo</button>
+        </div>
+        <div id="id01" class="w3-modal">
+           <div class="w3-modal-content">
+               <div class="w3-modal-container">
+            <span onclick="document.getElementById('id01').style.display='none'" class="button w3-display-topright">&times;</span>
+            <h2 class="rules-title">Regras do Jogo</h2>
+            <ul class="rules-ul">
+                <li>O jogo da memória é um clássico jogo de cartas onde você e seus amigos utilizam suas memórias para encontrar a posição dos pares das cartas que estão viradas no tabuleiro;</li>
+                <li>Caso encontre cartas diferentes ao virá-las, vire o verso novamente para outra tentativa; </li>
+                <li>De par em par, você ganha o jogo quando todos os pares de cartas forem descobertos.</li>
+            </ul>
+               </div>
+         </div>
     </div>
+
     <div id="ranking"> </div>
     <div id="jogo-da-memoria"> </div>
     <script src="./scripts/jogo-da-memoria.js"></script>
